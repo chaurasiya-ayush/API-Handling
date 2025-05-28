@@ -47,11 +47,7 @@ const Services = () => {
                 ref={(el) => (cardRefs.current[index] = el)}
                 className="bg-white rounded-xl shadow hover:shadow-lg transition-transform hover:scale-[1.02] p-5 flex flex-col items-center text-center"
               >
-                <img
-                  src={user.photo || "https://placehold.co/100x100"}
-                  alt={user.username}
-                  className="w-20 h-20 rounded-full object-cover border mb-4"
-                />
+                  
                 <h2 className="text-lg font-semibold text-blue-800">
                   {user.username}
                 </h2>
